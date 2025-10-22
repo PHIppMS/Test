@@ -14,7 +14,14 @@ Developed as part of research in high-temperature materials and data-driven allo
 - 🧩 Interactive normalization of elemental composition (sum = 100%)  
 - 📊 User-friendly sliders with value ranges derived from experimental dataset  
 - 💾 Pretrained model loading with automatic feature scaling and inverse transformation  
-- 🎨 Clean, responsive UI with custom Streamlit styling  
+- 🎨 Clean, responsive UI with custom Streamlit styling
+
+# Basic Usage
+
+1. Adjust chemical composition — ensure elements sum to 100% (normalize button included).
+2. Set test parameters (stress, temperature) and heat treatment conditions.
+3. Choose between AutoML and PyTorch NN or compare both models.
+4. Click “🚀 Make Prediction” to compute creep rupture life.
 
 
 
