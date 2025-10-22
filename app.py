@@ -404,11 +404,9 @@ def make_autogluon_prediction(model, inputs, feature_names, scaling_info):
         # Create input dataframe with scaled values
         scaled_input_dict = {feature: scaled_inputs[0][i] for i, feature in enumerate(feature_names)}
         input_data = pd.DataFrame([scaled_input_dict])
-
-        best_model_name = "RandomForest_r16_BAG_L2"
         
         # Make prediction (this will be in scaled space)
-        scaled_prediction = model.predict(input_data, model = best_model_name)
+        scaled_prediction = model.predict(input_data)
         prediction_value = scaled_prediction.iloc[0] if hasattr(scaled_prediction, 'iloc') else scaled_prediction[0]
         
         # Unscale prediction to original units
