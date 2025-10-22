@@ -1,10 +1,5 @@
-autogluon==1.2
-autogluon.common==1.2
-autogluon.core==1.2
-autogluon.features==1.2
-autogluon.multimodal==1.2
-autogluon.tabular==1.2
-autogluon.timeseries==1.2
+streamlit==1.41.1
+autogluon.tabular[all]==1.2
 numpy==2.3.4
 pandas==2.3.3
 scikit_learn==1.4.2
