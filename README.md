@@ -29,8 +29,11 @@ This Streamlit tool enables **machine learning–based prediction of creep ruptu
 # Project Structure
 
 - app.py: Streamlit web app
-- data/: scaled data
+- Data/: scaled data
+- AutoML/: Jupyter Notebook for predicting Creep Rupture Life with Autogluon AutoML
+- NN/: Jupyter Notebook for Optuna Study and Pytorch NN for predicting Creep Rupture Life
 - requirements.txt: required python packages
+  
 
 
 
