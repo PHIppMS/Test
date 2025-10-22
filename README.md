@@ -24,5 +24,15 @@ This Streamlit tool enables **machine learning–based prediction of creep ruptu
 3. Choose between AutoML and PyTorch NN or compare both models.
 4. Click “🚀 Make Prediction” to compute creep rupture life.
 
+---
+
+# Project Structure
+
+- app.py: Streamlit web app
+- data/: scaled data
+- requirements.txt: required python packages
+
+
+
 
 
