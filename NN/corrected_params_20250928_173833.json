@@ -1,0 +1,19 @@
+{
+  "n_layers": 3,
+  "layer_0_size": 128,
+  "dropout_0": 0.2,
+  "layer_1_size": 128,
+  "dropout_1": 0.1,
+  "layer_2_size": 112,
+  "dropout_2": 0.1,
+  "lr": 0.0021878209228415823,
+  "weight_decay": 3.036290039998135e-06,
+  "batch_size": 12,
+  "optimizer": "Adam",
+  "activation": "ReLU",
+  "scheduler": "StepLR",
+  "early_stopping_patience": 36,
+  "grad_clip": 1.0,
+  "step_size": 125,
+  "gamma": 0.8
+}
