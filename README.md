@@ -3,7 +3,6 @@
 
 
 This Streamlit tool enables **machine learning–based prediction of creep rupture life** for superalloys based on alloy composition, test conditions, and heat treatment parameters.  
-Developed as part of research in high-temperature materials and data-driven alloy design.  
 
 ---
 
@@ -15,6 +14,8 @@ Developed as part of research in high-temperature materials and data-driven allo
 - 📊 User-friendly sliders with value ranges derived from experimental dataset  
 - 💾 Pretrained model loading with automatic feature scaling and inverse transformation  
 - 🎨 Clean, responsive UI with custom Streamlit styling
+
+---
 
 # Basic Usage
 
