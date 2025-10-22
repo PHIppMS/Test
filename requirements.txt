@@ -1,7 +1,6 @@
-streamlit==1.41.1
-autogluon.tabular[all]==1.2
-numpy==2.3.4
-pandas==2.3.3
-scikit_learn==1.4.2
-streamlit==1.41.1
-torch==2.5.1
+streamlit==1.36.0
+autogluon.tabular[all]==1.2   # installiert catboost, lightgbm, xgboost passend
+pandas==2.2.2                 # < 2.3.0, wie autogluon-common es verlangt
+numpy==1.26.4                 # < 2.1.4, wie autogluon-common es verlangt
+scikit-learn==1.4.2
+torch==2.5.1                  # Py 3.12 Wheel vorhanden; alternativ 2.2.2 geht auch
