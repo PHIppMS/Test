@@ -169,7 +169,7 @@ def load_models_and_data():
             autogluon_path = "./AutoML/ag-20250930_130252"
             
             if os.path.exists(autogluon_path):
-                autogluon_model = TabularPredictor.load(autogluon_path)
+                autogluon_model = TabularPredictor.load(autogluon_path, require_py_version_match=False)
                 st.success("✅ AutoGluon model loaded successfully")
             else:
                 st.warning("⚠️ AutoGluon model not found")
